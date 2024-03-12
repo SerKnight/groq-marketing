@@ -15,33 +15,33 @@ export function Testimonial({ id, author, children }) {
         <GridPattern x="50%" patternTransform="translate(0 80)" />
       </div>
       <Container size="xs" className="relative">
-        <figure>
-          <div className="flex text-slate-900 sm:justify-center">
-            <StarRating />
-          </div>
-          <blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-center">
-            {children}
-          </blockquote>
-          <figcaption className="mt-10 flex items-center sm:justify-center">
-            <div className="overflow-hidden rounded-full bg-slate-200">
-              <Image
-                className="h-12 w-12 object-cover"
-                src={author.image}
-                alt=""
-                width={120}
-                height={120}
-              />
+        <a href={author.url} target="_blank" className="mt-1 text-xl text-slate-600">
+          <figure>
+            <div className="flex text-slate-900 sm:justify-center">
+              <StarRating />
             </div>
-            <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
-                {author.name}
+            <blockquote className="mt-10 font-display text-5xl font-large tracking-tight text-slate-900 sm:text-center">
+              {children}
+            </blockquote>
+            <figcaption className="mt-10 flex items-center sm:justify-center">
+              <div className="overflow-hidden rounded-full bg-slate-200">
+                <Image
+                  className="h-12 w-12 object-cover"
+                  src={author.image}
+                  alt=""
+                  width={120}
+                  height={120}
+                />
               </div>
-              <a href={author.url} target="_blank" className="mt-1 text-sm text-slate-600">
-                <div className="mt-1 text-sm text-slate-600">{author.role}</div>
-              </a>
-            </div>
-          </figcaption>
-        </figure>
+              <div className="ml-4">
+                <div className="text-base font-large leading-6 tracking-tight text-slate-900">
+                  {author.name}
+                </div>
+                  <div className="mt-1 text-xl text-slate-600">{author.role}</div>
+              </div>
+            </figcaption>
+          </figure>
+        </a>
       </Container>
     </aside>
   )

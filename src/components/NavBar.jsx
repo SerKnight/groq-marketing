@@ -6,7 +6,7 @@ import clsx from 'clsx'
 
 const sections = [
   { id: 'interviews', title: 'Interviews' },
-  { id: 'docs-whitepapers', title: 'Documentation' },
+  { id: 'documentation', title: 'Documentation' },
   { id: 'competition', title: 'Competition' },
   { id: 'about-me', title: 'About Me' },
 ];

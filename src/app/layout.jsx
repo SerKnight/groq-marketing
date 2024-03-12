@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Unleash the Power of Groq's LPU Inference Engine",
+  title: "Groq's LPU Inference Chip",
   description: "Experience lightning-fast, deterministic AI inference with Groq's revolutionary Language Processing Unit (LPU).",
 }
 

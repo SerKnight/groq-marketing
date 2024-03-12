@@ -15,10 +15,9 @@ export function Introduction() {
           disrupt the A.I. landscape.
         </p>
         <p className="mt-4">
-        As Chamath Palihapitiya noted in his <a href="https://chamath.substack.com/p/the-future-of-ai-compute-a-conversation" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-800">recent interview</a> with Groq CEO Jonathan Ross, "If you tie it together with what Jensen said
-          on the earnings call and you now see developers stress testing us and finding
+        As Chamath Palihapitiya noted in his <a href="https://chamath.substack.com/p/the-future-of-ai-compute-a-conversation" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-800">recent interview</a> with Groq CEO Jonathan Ross, <i>"You now see developers stress testing Groq and finding
           that we are meaningfully, meaningfully faster and cheaper than any Nvidia
-          solution, there's the potential here to be really disruptive."
+          solution, there's the potential here to be really disruptive."</i>
         </p>
         <p className="mt-4">
           The Groq Tensor Streaming Processor (TSP) architecture, now referred to as the

@@ -15,7 +15,7 @@ const videos = [
       "All In podcast talks about Groq's big week, training vs. inference, LPUs vs. GPUs, how to succeed in deep tech",
     image: allIn,
     url: 'https://www.youtube.com/watch?v=z6vrKA_L5pk',
-    runtime: { minutes: 7, seconds: 58 },
+    runtime: { minutes: 80, seconds: 27 },
   },
   {
     title: 'How does Groq LPU work?',
@@ -39,7 +39,7 @@ const videos = [
       "Groq CEO Jonathan Ross explains how his company's human-like AI chip operates, as CNN's Becky Anderson..",
     image: cnn,
     url: 'https://www.youtube.com/watch?v=pRUddK6sxDg',
-    runtime: { minutes: 80, seconds: 27 },
+    runtime: { minutes: 7, seconds: 58 },
   },
 ]
 

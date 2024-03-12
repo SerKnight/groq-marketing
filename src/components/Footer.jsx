@@ -7,8 +7,7 @@ export function Footer() {
         <GridPattern x="50%" />
       </div>
       <div className="relative text-center text-sm text-slate-600">
-        <p>Copyright &copy; {new Date().getFullYear()} Lindehoff Design, LLC</p>
-        <p>All rights reserved.</p>
+        <a href="https://wow.groq.com/careers/?gh_jid=5617038003" target="_blank" className="text-orange-600 hover:text-orange-800">Senior Sales Engineer @ groq</a>
       </div>
     </footer>
   )

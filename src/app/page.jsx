@@ -1,11 +1,11 @@
 import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
-import { FreeChapters } from '@/components/FreeChapters'
+// import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
 import { NavBar } from '@/components/NavBar'
-import { Pricing } from '@/components/Pricing'
-import { Resources } from '@/components/Resources'
+import { Competition } from '@/components/Competition'
+import { Documentation } from '@/components/Documentation'
 import { Screencasts } from '@/components/Screencasts'
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
@@ -31,11 +31,11 @@ export default function Home() {
           "Wow that was quick"
         </p>
       </Testimonial>
-      <Resources />
-      <FreeChapters />
-      <Pricing />
+      <Documentation />
+      <Competition />
       <Testimonials />
       <Author />
+      {/* <FreeChapters /> */}
       <Footer />
     </>
   )

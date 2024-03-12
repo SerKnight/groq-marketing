@@ -36,8 +36,9 @@ export function Hero() {
           </div>
           <div style={{ '--tw-rotate': '-47deg' }} className="relative z-10 mx-auto transform-gpu flex w-64 rounded-xl md:w-80 lg:w-auto">
             <Image
-              className="w-full cursor-logo transition-transform duration-500 ease-in-out hover:scale-110"
+              className="w-full transition-transform duration-500 ease-in-out hover:scale-110"
               src={coverImage}
+              style={{ 'cursor': 'grabbing' }}
               alt=""
               priority
             />
