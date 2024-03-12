@@ -65,7 +65,7 @@ export function Testimonials() {
       </Container>
       <ul
         role="list"
-        className="mx-auto grid max-w-2xl grid-cols-1 gap-8 px-4 lg:max-w-7xl lg:grid-cols-3 lg:px-8"
+        className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 px-4 lg:max-w-7xl lg:grid-cols-3 lg:px-8"
       >
         {testimonials.map((testimonial, index) => (
           <li key={index} className="">

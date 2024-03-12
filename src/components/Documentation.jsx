@@ -169,7 +169,7 @@ export function Documentation() {
           ))}
         </ol>
       </Container>
-      <hr class="h-px my-8 bg-gray-100 border-0 dark:bg-gray-100"></hr>
+      <hr className="h-px my-8 bg-gray-100 border-0 dark:bg-gray-100"></hr>
       <Container size="lg" className="mt-16">
         <div className="mx-auto mt-16 max-w-5xl lg:px-6">
           <h3 className="text-4xl font-semibold text-center text-slate-900">Benchmarks</h3>

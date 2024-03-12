@@ -17,7 +17,7 @@ function XIcon(props) {
 export function Author() {
   return (
     <>
-      <hr class="h-px my-8 bg-gray-100 border-0 dark:bg-gray-100"></hr>
+      <hr className="h-px my-8 bg-gray-100 border-0 dark:bg-gray-100"></hr>
       <section
         id="about-me"
         aria-labelledby="about-me-title"
@@ -36,7 +36,7 @@ export function Author() {
                 sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
               />
             </div>
-            <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
+            <div className="px-4 py-10 sm:px-10 sm:py-16 md:pt-20 lg:px-20 lg:pt-32">
             <SectionHeading number="4" id="about-me-title">
               About Me
             </SectionHeading>
