@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */ 
+
 import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 // import { FreeChapters } from '@/components/FreeChapters'

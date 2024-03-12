@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */ 
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { GridPattern } from '@/components/GridPattern';
@@ -42,7 +44,7 @@ export function Author() {
               <span className="block text-orange-600">Christopher Knight –</span> Customer-Centric Software Leader
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I am a versatile software engineer with over a decade of experience and a foundational interest in anthropology. I love to build and lead technical teams, work through complex data integrations, and advocate for developers in <i>(ideally open source)</i> ecosystems. My passion for cutting-edge technology and its potential to transform our world align with Groq's mission to revolutionize AI compute with the groundbreaking LPU architecture.
+              I am a versatile software engineer with over a decade of experience and a foundational interest in anthropology. I love to build and lead technical teams, work through complex data integrations, and advocate for developers in ecosystems. My passion for cutting-edge technology and its potential to transform our world align with Groq's mission to revolutionize AI compute with the groundbreaking LPU architecture.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
               In my current role as a Software Engineering Manager at Guild Education, I lead a team of 6 engineers responsible for data integration with the nation's largest employers, such as PepsiCo, Walmart, and Walt Disney. This experience has honed my skills in product management, sales engineering, solution design, and managing complex integrations with enterprise customers.

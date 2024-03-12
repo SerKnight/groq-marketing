@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */ 
+
 import Link from 'next/link';
 import { CheckIcon } from '@/components/CheckIcon';
 import { Container } from '@/components/Container';
