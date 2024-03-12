@@ -41,7 +41,7 @@ const benchmarkData = [
 ];
 
 
-const paperData = [
+const papersData = [
   {
     image: benchmarkImage1,
     alt: 'Throughput vs. Price comparison',
@@ -117,11 +117,11 @@ export function Documentation() {
   const [currentPaper, setCurrentPaper] = useState(0);
 
   const prevPaper = () => {
-    setCurrentPaper((prevPaper) => (prevPaper === 0 ? paperData.length - 1 : prevPaper - 1));
+    setCurrentPaper((prevPaper) => (prevPaper === 0 ? papersData.length - 1 : prevPaper - 1));
   };
 
   const nextPaper = () => {
-    setCurrentPaper((prevPaper) => (prevPaper === paperData.length - 1 ? 0 : prevPaper + 1));
+    setCurrentPaper((prevPaper) => (prevPaper === papersData.length - 1 ? 0 : prevPaper + 1));
   };
 
   return (
@@ -196,14 +196,14 @@ export function Documentation() {
           </div>
         </div>
       </Container>
-      <Container size="lg" className="mt-16">
+      {/* <Container size="lg" className="mt-16">
         <div className="mx-auto mt-16 max-w-5xl lg:px-6">
           <h3 className="text-4xl font-semibold text-center text-slate-900">Papers</h3>
           <div className="relative mt-8">
             <div className="overflow-hidden rounded-lg shadow-lg">
               <Image
-                src={paperData[currentPaper].image}
-                alt={paperData[currentPaper].alt}
+                src={papersData[currentPaper].image}
+                alt={papersData[currentPaper].alt}
                 className="w-full"
               />
             </div>
@@ -221,7 +221,7 @@ export function Documentation() {
             </button>
           </div>
         </div>
-      </Container>
+      </Container> */}
     </section>
   );
 }
