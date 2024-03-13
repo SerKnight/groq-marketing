@@ -36,3 +36,6 @@ To learn more about the technologies used in this site template, see the followi
 
 
 https://nextjs.org/learn-pages-router/basics/deploying-nextjs-app/deploy
+
+
+Customer Evangelist & Leading Meetings

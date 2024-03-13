@@ -44,13 +44,21 @@ export function Author() {
               <span className="block text-orange-600">Christopher Knight –</span> Customer-Centric Software Leader
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I am a versatile software engineer with over a decade of experience and a foundational interest in anthropology. I love to build and lead technical teams, work through complex data integrations, and advocate for developers in ecosystems. My passion for cutting-edge technology and its potential to transform our world align with Groq's mission to revolutionize AI compute with the groundbreaking LPU architecture.
+              I am a versatile software engineer and tech evangelist with a decade of building production software, all stemming from my foundational interest in anthropology. I love to build and lead technical teams, work through complex data integrations, and advocate for developers in ecosystems. My passion for cutting-edge technology and its potential to transform our world has lead me on a multi-year search to align with a company like Groq, and your mission to revolutionize computation with the groundbreaking LPU architecture.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              In my current role as a Software Engineering Manager at Guild Education, I lead a team of 6 engineers responsible for data integration with the nation's largest employers, such as PepsiCo, Walmart, and Walt Disney. This experience has honed my skills in product management, sales engineering, solution design, and managing complex integrations with enterprise customers.
+              In my current role as a Software Engineering Manager at Guild Education, I lead a team of 6 engineers responsible for data integration with the nation's largest employers such as PepsiCo, Walmart, and Walt Disney. This experience has honed my skills in product management, sales/solution engineering, and managing complex implementation needs with the largest enterprise customers out there.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              Previously, as a Developer Evangelist at Xero, I managed open-source SDKs, advocated for the ecosystem, and managed hundreds of API integration customers, both through a sales-centric on-boarding and as a technical thought leader and SDK maintainer. This role strengthened my ability to communicate technical concepts effectively, build strong relationships with developers and partners, and drive adoption of innovative solutions.
+              Previously, as a Developer Evangelist at Xero, I managed open-source SDKs (Open API Spec + Codegen in 6 languages), advocated interally for the ecosystem developers, and managed hundreds of API customers, through sales-centric on-boarding and technical thought leadership in our open source communities. This role strengthened my ability to communicate technical concepts effectively, build strong relationships with developers and partners, and drive adoption of innovative solutions <Link
+              href="https://serknight-devrel.herokuapp.com/"
+              className="text-base font-medium text-orange-600 hover:text-orange-800"
+              target="_blank"
+            >
+              <span aria-hidden="true">&rarr;</span>
+              {' '} Xero Developer Relations Work
+              
+            </Link>
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
               My background spans vendor analysis, software development, team leadership, and developer advocacy. I'm extremely passionate about Groq's mission and feel i'd bring an entreprenurial drive to the Sales Engineering, GroqCloud & Developer Experience teams. I am incredibly excited about the potential of Groq's LPU technology and would love to explore the opportunity to bring my skills, experience, and enthusiasm to your team.
