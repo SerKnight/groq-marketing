@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
+import { Analytics } from "@vercel/analytics/react"
 
 import '@/styles/tailwind.css'
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="flex min-h-full flex-col">{children}</body>
+      <Analytics/>
     </html>
   )
 }
